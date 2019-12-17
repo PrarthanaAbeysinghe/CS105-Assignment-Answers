@@ -1,0 +1,13 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Line line = new Line(5, 5, 10, 10);
+        line.move(10, 15);
+        line.scale(5);
+        line.scale(2, 3);
+        line.printLocation();
+
+       
+    }
+}
